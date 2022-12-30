@@ -1,4 +1,4 @@
-import { List, ListIcon, ListItem, Stack, Text} from '@chakra-ui/react';
+import { List, ListIcon, ListItem, Stack, Text, Button, Link} from '@chakra-ui/react';
 import {CheckIcon, SpinnerIcon} from '@chakra-ui/icons'
 import CardProject from '../Card/CardProject';
 import Footer from '../Footer/Footer';
@@ -19,6 +19,10 @@ const Home = () => {
                     En la actualidad me encuentro aprendiendo nuevas tecnologías y realizando
                     proyectos personales que me ayuden a encontrar mi primer trabajo en IT.
                 </Text>
+
+                <Link href='./CV.pdf' target='_blank' maxW='80px'>
+                    <Button maxW='100px' variant='outline' shadow='dark-lg' color='primary'>Ver CV</Button>
+                </Link>
             </Stack>
 
             <Stack direction='column' mt={8} px={3} mb='5rem'>

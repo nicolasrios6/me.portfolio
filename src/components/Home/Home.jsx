@@ -13,7 +13,7 @@ const Home = () => {
                     Inicié en la programacion en diciembre de 2021 realizando cursos y actualmente 
                     sigo aprendiendo y practicando nuevas tecnologías.
                     Me gusta mucho desarrollar con ReactJS y aplicar estilos con SASS, 
-                    ademas de utilizar librerás como Chakra o Material UI.
+                    ademas de utilizar librerías como Chakra o Material UI.
                 </Text>
                 <Text fontSize='lg'>
                     En la actualidad me encuentro aprendiendo nuevas tecnologías y realizando

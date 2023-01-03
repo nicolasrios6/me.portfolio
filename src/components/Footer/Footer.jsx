@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <Stack direction="column" px={3}>
       <Text fontSize='xl' color='primary' fontWeight='semibold'>Contacto</Text>
-      <Text fontSize='lg' fontWeight='medium'>Enviame un email: <Text color='primary' fontWeight='medium'>riosnicolas618@gmail.com</Text></Text>
+      <Text fontSize='lg' fontWeight='medium'>Envíame un email: <Text color='primary' fontWeight='medium'>riosnicolas618@gmail.com</Text></Text>
 
       <List display="flex" flexDir="row" paddingBottom='4rem'>
         <ListItem fontSize='3xl'>

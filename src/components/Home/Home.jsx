@@ -70,7 +70,7 @@ const Home = () => {
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={SpinnerIcon} color='primary'/>
-                                NextJS
+                                NodeJS
                             </ListItem>
                         </List>
                     </Stack>

@@ -3,17 +3,25 @@ import {CheckIcon, SpinnerIcon} from '@chakra-ui/icons'
 import CardProject from '../Card/CardProject';
 import Footer from '../Footer/Footer';
 
+
+const fechaNacimiento = new Date('2000-03-02')
+const fechaActual = new Date()
+
+const dif = fechaActual - fechaNacimiento
+
+const edadMiliseg = new Date(dif)
+
+const edad = Math.abs(edadMiliseg.getUTCFullYear() - 1970)
+
 const Home = () => {
     return (
         <>
             <Stack direction='column' px={3} rowGap='2rem' mb='5rem'>
                 <Text fontSize='xl' color='primary' fontWeight='semibold'>Hola!</Text>
                 <Text fontSize='lg' >
-                    Soy Nicolás Ríos, desarrollador frontend. Tengo 22 años y soy de Mendoza, Argentina.
-                    Inicié en la programacion en diciembre de 2021 realizando cursos y actualmente 
+                    Soy Nicolás Ríos, desarrollador frontend. Tengo {edad} años y soy de Mendoza, Argentina.
+                    Soy estudiante de Programación en la UTN. Inicié en la programacion en diciembre de 2021 realizando cursos y actualmente 
                     sigo aprendiendo y practicando nuevas tecnologías.
-                    Me gusta mucho desarrollar con ReactJS y aplicar estilos con SASS, 
-                    ademas de utilizar librerías como Chakra o Material UI.
                 </Text>
                 <Text fontSize='lg'>
                     En la actualidad me encuentro aprendiendo nuevas tecnologías y realizando
@@ -31,14 +39,6 @@ const Home = () => {
                         <List pr={6}>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={CheckIcon} color='primary'/>
-                                HTML
-                            </ListItem>
-                            <ListItem fontSize='lg' padding={1}>
-                                <ListIcon as={CheckIcon} color='primary'/>
-                                CSS
-                            </ListItem>
-                            <ListItem fontSize='lg' padding={1}>
-                                <ListIcon as={CheckIcon} color='primary'/>
                                 Javascript
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
@@ -49,17 +49,13 @@ const Home = () => {
                                 <ListIcon as={CheckIcon} color='primary'/>
                                 SASS
                             </ListItem>
-                        </List >
-
-                        <List>
-                            <ListItem fontSize='lg' padding={1}>
-                            <ListIcon as={CheckIcon} color='primary'/>
-                                Firebase
-                            </ListItem>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={CheckIcon} color='primary'/>
                                 GIT
                             </ListItem>
+                        </List >
+
+                        <List>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={CheckIcon} color='primary'/>
                                 Material UI
@@ -70,7 +66,15 @@ const Home = () => {
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={SpinnerIcon} color='primary'/>
-                                NodeJS
+                                Java
+                            </ListItem>
+                            <ListItem fontSize='lg' padding={1}>
+                                <ListIcon as={SpinnerIcon} color='primary'/>
+                                Python
+                            </ListItem>
+                            <ListItem fontSize='lg' padding={1}>
+                                <ListIcon as={SpinnerIcon} color='primary'/>
+                                SQL
                             </ListItem>
                         </List>
                     </Stack>
@@ -103,6 +107,13 @@ const Home = () => {
                     technologies='HTML + CSS + Javascript'
                     github='https://github.com/nicolasrios6/Portfolio'
                     web='https://nicolasrios6.github.io/Portfolio/'
+                />
+                <CardProject
+                    title='Landing Page'
+                    description='Landing page sobre turismo en Mendoza'
+                    img='/saudademendoza.png'
+                    technologies='WordPress & Elementor'
+                    web='https://saudademendoza.com/'
                 />
             </Stack>
 

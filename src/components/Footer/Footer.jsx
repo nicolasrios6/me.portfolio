@@ -36,13 +36,7 @@ const Footer = () => {
             </ListIcon>
           </Link>
         </ListItem>
-        <ListItem fontSize='3xl'>
-          <Link href="https://twitter.com/NicoRios027" target="_blank">
-            <ListIcon>
-              <Icon icon={faTwitter} />
-            </ListIcon>
-          </Link>
-        </ListItem>
+
       </List>
 
       <Flex justifyContent='space-between' alignItems='center' paddingBottom='1rem'>

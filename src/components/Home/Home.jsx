@@ -19,18 +19,25 @@ const Home = () => {
             <Stack direction='column' px={3} rowGap='2rem' mb='5rem'>
                 <Text fontSize='xl' color='primary' fontWeight='semibold'>Hola!</Text>
                 <Text fontSize='lg' >
-                    Soy Nicolás Ríos, desarrollador frontend. Tengo {edad} años y soy de Mendoza, Argentina.
-                    Soy estudiante de Programación en la UTN. Inicié en la programacion en diciembre de 2021 realizando cursos y actualmente 
-                    sigo aprendiendo y practicando nuevas tecnologías.
+                    Soy Nicolás Ríos, tengo {edad} años y soy de Mendoza, Argentina.
+                    Soy estudiante de Programación en la UTN. Inicié en la programacion en diciembre de 2021 realizando cursos.
                 </Text>
                 <Text fontSize='lg'>
-                    En la actualidad me encuentro aprendiendo nuevas tecnologías y realizando
-                    proyectos personales que me ayuden a encontrar mi primer trabajo en IT.
+                    En la actualidad me encuentro perfeccionando y aprendiendo nuevas tecnologías que me impulsen a dar los primeros pasos en el mundo IT.
                 </Text>
 
                 <Link href='./CV.pdf' target='_blank' maxW='80px'>
                     <Button maxW='100px' variant='outline' shadow='dark-lg' color='primary'>Ver CV</Button>
                 </Link>
+            </Stack>
+
+            <Stack px={3} mb='5rem'>
+                <Text fontSize='xl' color='primary' fontWeight='semibold'>Experiencia:</Text>
+                <Text fontSize='lg' fontWeight='bold'>Kahlo Agencia</Text>
+                <Text fontWeight='semibold'>FullStack Developer</Text>
+                <Text>12/23 - Actualidad</Text>
+                <Text>Mi desempeño en Kahlo está centrado en el desarrollo de Aplicaciones Web utilizando como tecnologias principales .NET y JavaScript</Text>
+                
             </Stack>
 
             <Stack direction='column' mt={8} px={3} mb='5rem'>
@@ -53,16 +60,20 @@ const Home = () => {
                                 <ListIcon as={CheckIcon} color='primary'/>
                                 GIT
                             </ListItem>
+                            <ListItem fontSize='lg' padding={1}>
+                                <ListIcon as={CheckIcon} color='primary'/>
+                                Material UI
+                            </ListItem>
                         </List >
 
                         <List>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={CheckIcon} color='primary'/>
-                                Material UI
+                                Chakra UI
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={CheckIcon} color='primary'/>
-                                Chakra UI
+                                .NET
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={SpinnerIcon} color='primary'/>

@@ -23,7 +23,7 @@ const Home = () => {
                     Soy estudiante de Programación en la UTN. Inicié en la programacion en diciembre de 2021 realizando cursos.
                 </Text>
                 <Text fontSize='lg'>
-                    En la actualidad me encuentro perfeccionando y aprendiendo nuevas tecnologías que me impulsen a dar los primeros pasos en el mundo IT.
+                    En la actualidad me encuentro perfeccionando y aprendiendo nuevas tecnologías que me impulsen a crecer en el mundo IT.
                 </Text>
 
                 <Link href='./CV.pdf' target='_blank' maxW='80px'>
@@ -36,7 +36,7 @@ const Home = () => {
                 <Text fontSize='lg' fontWeight='bold'>Kahlo Agencia</Text>
                 <Text fontWeight='semibold'>FullStack Developer</Text>
                 <Text>12/23 - Actualidad</Text>
-                <Text>Mi desempeño en Kahlo está centrado en el desarrollo de Aplicaciones Web utilizando como tecnologias principales .NET y JavaScript</Text>
+                <Text>Mi desempeño en Kahlo está centrado en el desarrollo de Aplicaciones Web utilizando como tecnologias principales .NET, JavaScript y PHP</Text>
                 
             </Stack>
 
@@ -81,7 +81,7 @@ const Home = () => {
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={SpinnerIcon} color='primary'/>
-                                Python
+                                PHP
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={SpinnerIcon} color='primary'/>
@@ -96,7 +96,7 @@ const Home = () => {
                 <CardProject 
                     title='Zona Gym'
                     description='Zona Gym es una SPA donde el usuario puede buscar los mejores
-                    gimnasios en la zona que prefiera.'
+                    gimnasios por la zona seleccionada.'
                     img='/zonagym.png'
                     technologies='ReactJS + SASS + Firebase'
                     github='https://github.com/nicolasrios6/zona-gym'
@@ -105,7 +105,7 @@ const Home = () => {
                 <CardProject
                     title='Ecommerce'
                     description='Ecommerce de mates, donde el usuario puede navegar y elegir diferentes productos con el stock correspondiente de cada uno
-                    de manera sencilla y sin problemas, es una web muy intuitiva.'
+                    de manera sencilla, es una web muy intuitiva.'
                     img='/buonmate.png'
                     technologies='ReactJS + SASS + Material UI + Firebase'
                     github='https://github.com/nicolasrios6/ecommerce-buonmate'

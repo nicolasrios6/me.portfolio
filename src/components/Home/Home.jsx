@@ -26,7 +26,7 @@ const Home = () => {
                     En la actualidad me encuentro perfeccionando y aprendiendo nuevas tecnologías que me impulsen a crecer en el mundo IT.
                 </Text>
 
-                <Link href='./CV.pdf' target='_blank' maxW='80px'>
+                <Link href='./NicolasCV.pdf' target='_blank' maxW='80px'>
                     <Button maxW='100px' variant='outline' shadow='dark-lg' color='primary'>Ver CV</Button>
                 </Link>
             </Stack>

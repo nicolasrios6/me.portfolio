@@ -69,23 +69,23 @@ const Home = () => {
                         <List>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={CheckIcon} color='primary'/>
-                                Chakra UI
-                            </ListItem>
-                            <ListItem fontSize='lg' padding={1}>
-                                <ListIcon as={CheckIcon} color='primary'/>
-                                .NET
-                            </ListItem>
-                            <ListItem fontSize='lg' padding={1}>
-                                <ListIcon as={SpinnerIcon} color='primary'/>
                                 Java
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
-                                <ListIcon as={SpinnerIcon} color='primary'/>
-                                PHP
+                                <ListIcon as={CheckIcon} color='primary'/>
+                                SQL
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
                                 <ListIcon as={SpinnerIcon} color='primary'/>
-                                SQL
+                                JBDC
+                            </ListItem>
+                            <ListItem fontSize='lg' padding={1}>
+                                <ListIcon as={SpinnerIcon} color='primary'/>
+                                JPA
+                            </ListItem>
+                            <ListItem fontSize='lg' padding={1}>
+                                <ListIcon as={SpinnerIcon} color='primary'/>
+                                .NET
                             </ListItem>
                         </List>
                     </Stack>

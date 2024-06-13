@@ -94,6 +94,13 @@ const Home = () => {
             <Stack direction='column' px={3} rowGap='5' mb='5rem'>
                 <Text fontSize='xl' color='primary' fontWeight='semibold' mb={8}>Proyectos:</Text>
                 <CardProject 
+                    title='ZK Turismo'
+                    description='Página web creada para empresa de turismo de Mendoza'
+                    img='/zkturismo.jpg'
+                    technologies='ReactJS + SASS + Material UI + Firebase'
+                    web='https://zkturismo.vercel.app/'
+                />
+                <CardProject 
                     title='Zona Gym'
                     description='Zona Gym es una SPA donde el usuario puede buscar los mejores
                     gimnasios por la zona seleccionada.'

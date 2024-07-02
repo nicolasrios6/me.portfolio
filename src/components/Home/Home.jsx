@@ -36,7 +36,7 @@ const Home = () => {
                 <Text fontSize='lg' fontWeight='bold'>Kahlo Agencia</Text>
                 <Text fontWeight='semibold'>FullStack Developer</Text>
                 <Text>12/2023 - 04/2024</Text>
-                <Text>Mi desempeño en Kahlo está centrado en el desarrollo de Aplicaciones Web utilizando como tecnologias principales .NET, JavaScript y PHP</Text>
+                <Text>Mi desempeño en Kahlo está centrado en el desarrollo de Aplicaciones Web utilizando como tecnologias principales .NET, JavaScript y PHP.</Text>
                 
             </Stack>
 
@@ -76,16 +76,16 @@ const Home = () => {
                                 SQL
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
-                                <ListIcon as={SpinnerIcon} color='primary'/>
-                                JBDC
-                            </ListItem>
-                            <ListItem fontSize='lg' padding={1}>
-                                <ListIcon as={SpinnerIcon} color='primary'/>
+                                <ListIcon as={CheckIcon} color='primary'/>
                                 JPA
                             </ListItem>
                             <ListItem fontSize='lg' padding={1}>
-                                <ListIcon as={SpinnerIcon} color='primary'/>
-                                .NET
+                                <ListIcon as={CheckIcon} color='primary'/>
+                                Hibernate
+                            </ListItem>
+                            <ListItem fontSize='lg' padding={1}>
+                                <ListIcon as={CheckIcon} color='primary'/>
+                                Spring Boot
                             </ListItem>
                         </List>
                     </Stack>
@@ -95,7 +95,7 @@ const Home = () => {
                 <Text fontSize='xl' color='primary' fontWeight='semibold' mb={8}>Proyectos:</Text>
                 <CardProject 
                     title='ZK Turismo'
-                    description='Página web creada para empresa de turismo de Mendoza'
+                    description='Página web creada para empresa de turismo de Mendoza.'
                     img='/zkturismo.jpg'
                     technologies='ReactJS + SASS + Material UI + Firebase'
                     web='https://zkturismo.vercel.app/'
